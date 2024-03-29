@@ -30,6 +30,7 @@ const FormNewLeafletItem: FC<FormNewLeafletItemProps> = ({
 
   const handleSubmit = (event:FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    
     if (latitude && longitude && name) {
       createNewLeafletItem([latitude,longitude],name);
     }

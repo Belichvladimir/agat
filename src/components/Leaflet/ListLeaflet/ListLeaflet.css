@@ -12,8 +12,13 @@
   z-index: 1000;
   overflow: scroll;
 }
+
 .ListLeaflet-Item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.ListLeaflet-Button {
+  background-color: #3388ff;
 }

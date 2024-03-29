@@ -1,7 +1,6 @@
 import { Leaflet } from './components/Leaflet/Leaflet';
 import type { LatLngExpression } from 'leaflet';
 
-
 import './App.css';
 
 const CENTER:LatLngExpression = [55.763219, 37.605340];

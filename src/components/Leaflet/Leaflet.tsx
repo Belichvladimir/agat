@@ -68,6 +68,7 @@ const Leaflet: FC<LeafletProps> = ({ url, center, zoom }) => {
       },
       purpleOptions: undefined,
     };
+    
     dispatch(add(newItem));
   };
   const removeNewLeafletItem = (id: number) => {

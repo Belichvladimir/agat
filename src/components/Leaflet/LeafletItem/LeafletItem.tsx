@@ -20,6 +20,7 @@ const LeafletItem: FC<LeafletItemProps> = ({
   geometry,
   purpleOptions,
 }) => {
+  
   if (geometry.type === 'Polygon') {
     return (
       <Polygon
