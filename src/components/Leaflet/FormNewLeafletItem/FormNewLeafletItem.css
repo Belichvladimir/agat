@@ -1,0 +1,31 @@
+.FormNewLeaflet {
+  font-size: 0.9rem;
+  position: absolute;
+  bottom: 0px;
+  left:45px;
+  min-width: 250px;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(217, 217, 217, 0.4);
+  z-index: 1000;
+}
+.FormNewLeaflet-GroupInput {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.FormNewLeaflet-Input {
+  font-size: inherit;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: rgb(217, 217, 217, 0.4);;
+}
+
+.FormNewLeaflet-Button {
+  align-self: center;
+  padding: 10px 15px;
+}

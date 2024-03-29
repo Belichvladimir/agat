@@ -1,0 +1,12 @@
+.Leaflet-Error {
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    top: 40vh;
+    left: 40vw;
+    margin: 0 auto;
+    color: red;
+    font-size: 1.5rem;
+    z-index: 1000;
+    background-color: rgb(217, 217, 217, 0.4);
+} 
