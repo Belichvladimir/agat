@@ -1,3 +1,4 @@
+
 .FormNewLeaflet {
   font-size: 0.9rem;
   position: absolute;
@@ -29,4 +30,12 @@
   background-color: #3388ff;
   align-self: center;
   padding: 10px 15px;
+}
+
+.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
 }
