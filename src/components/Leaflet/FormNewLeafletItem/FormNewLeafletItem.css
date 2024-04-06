@@ -5,6 +5,7 @@
   bottom: 0px;
   left:45px;
   min-width: 250px;
+  min-height: 20vh;
   padding: 20px 40px;
   display: flex;
   flex-direction: column;
